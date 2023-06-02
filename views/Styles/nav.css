@@ -1,0 +1,25 @@
+
+.he h1{
+    padding-left: 30px;
+}
+.he p{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    
+
+}
+.p{
+    margin-left: 850px;
+
+}
+.he{
+    display: flex;
+}
+.lo{
+   border-radius: 20px;
+   border: solid white 1px;
+   color: black;
+  height: 20PX;
+   background-color: white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <%- include('../Components/navbar.ejs')   %>
+
+
+    <div class="banner"  >
+        <% user.map((trak)=>  { %>
+            <div class="imgn"  >
+                
+                <div style="color: rgb(42, 37, 37); margin-left: 30px; "><h1><%=trak.firstName %></h1></div>
+                <div style="color: rgb(131, 116, 116); margin-left: 30px;"><h1><%=trak.lastName%></h1></div>
+
+            </div>
+
+      <%  }) %>
+    </div>
+</body>
+</html>
